@@ -2,11 +2,46 @@
 
 <html lang="en">
   <head>
+    
+
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | Peng Bioinformatics Lab{% else %}Peng Bioinformatics Lab | Dr. Gang Peng | Indiana University School of Medicine{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="Gang Peng, Peng Lab, bioinformatics, Indiana University School of Medicine, IUSM, computational genetics, DNA modifications, metabolomics, aging">
+    <meta name="author" content="Gang Peng">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | Peng Lab{% else %}Peng Bioinformatics Lab | Dr. Gang Peng{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="Peng Bioinformatics Lab">
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gang Peng",
+    "honorificSuffix": "PhD",
+    "jobTitle": "Assistant Professor",
+    "affiliation": {
+        "@type": "Organization",
+        "name": "Indiana University School of Medicine",
+        "url": "https://medicine.iu.edu"
+    },
+    "worksFor": {
+        "@type": "Organization",
+        "name": "Peng Bioinformatics Lab",
+        "url": "https://pengbioinformaticslab.github.io/lab/"
+    },
+    "email": "gangpeng@iu.edu",
+    "url": "https://pengbioinformaticslab.github.io/lab/"
+    }
+    </script>
+
+
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon_penglab.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="{{ site.description }}">
+    
     <meta name="theme-color" content="#052049">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/static/css/bootstrap.min.css">
