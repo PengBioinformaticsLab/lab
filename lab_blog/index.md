@@ -7,6 +7,12 @@ group: lab_blog
 <div style="margin: 40px 60px;">
 
 <h1 style="margin-bottom: 5px;">Lab Blog</h1>
+
+<p style="color: #888; font-size: 14px; margin-bottom: 30px;">May 27, 2026</p>
+<p style="font-size: 22px; font-weight: bold; color: #c75b12; margin-bottom: 10px;">🎉 Welcome <strong> Srilakshmi Srivathsan and Gavin Burns </strong> to the lab as IUSCCC summer intern !</p>
+
+
+
 <p style="color: #888; font-size: 14px; margin-bottom: 30px;">April 03, 2026</p>
 
 <div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap;">
