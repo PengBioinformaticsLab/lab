@@ -8,10 +8,18 @@ group: lab_blog
 
 <h1 style="margin-bottom: 5px;">Lab Blog</h1>
 
+<br>
+<br>
+
+<p style="color: #888; font-size: 14px; margin-bottom: 30px;">June 30, 2026</p>
+<p style="font-size: 22px;  margin-bottom: 10px;"> Steven will leave the lab for his PhD training in Rochester in this fall. All the best!</p>
+
+<br>
+
 <p style="color: #888; font-size: 14px; margin-bottom: 30px;">May 27, 2026</p>
 <p style="font-size: 22px; font-weight: bold; color: #c75b12; margin-bottom: 10px;">🎉 Welcome <strong> Srilakshmi Srivathsan and Gavin Burns </strong> to the lab as IUSCCC summer intern !</p>
 
-
+<br>
 
 <p style="color: #888; font-size: 14px; margin-bottom: 30px;">April 03, 2026</p>
 

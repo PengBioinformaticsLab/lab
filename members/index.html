@@ -7,41 +7,6 @@ group: members
 
 <style>
 /* ===========================
-   AGGRESSIVE grey box removal
-   =========================== */
-body {
-  background: white !important;
-}
-
-.members-wrapper,
-.members-wrapper *:not(a):not(img),
-.member-row,
-.member-info {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-/* Kill ALL possible container backgrounds */
-main,
-.content,
-.container,
-.page-content,
-.wrapper,
-article,
-section,
-.post-content,
-.entry-content,
-#main,
-#content,
-.main-content {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-}
-
-/* ===========================
    Page wrapper
    =========================== */
 .members-wrapper {
@@ -68,7 +33,7 @@ section,
   align-items: center;
   margin: 1.8rem 0;
   padding: 0;
-  border: none !important;
+  border: none;
 }
 
 /* ===========================
@@ -112,8 +77,8 @@ section,
 }
 
 .members-wrapper h2:nth-last-of-type(1) ~ .member-row {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   line-height: 1.3;
 }
 
